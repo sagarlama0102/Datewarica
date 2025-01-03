@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Sign Up - Dating Match</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://ai-public.creatie.ai/gen_page/tailwind-custom.css" rel="stylesheet">    <script src="https://cdn.tailwindcss.com/3.4.5?plugins=forms@0.5.7,typography@0.5.13,aspect-ratio@0.4.2,container-queries@0.1.1"></script>
+    <script src="https://ai-public.creatie.ai/gen_page/tailwind-config.min.js" data-color="#000000" data-border-radius="small"></script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="max-w-4xl mx-auto bg-white rounded-lg shadow-sm overflow-hidden">            <div class="md:flex">
+                <div class="md:w-1/2">
+                    <img src="https://creatie.ai/ai/api/search-image?query=A modern, minimalist portrait photograph of a young couple standing against a clean white brick wall with soft natural lighting and gentle shadows, creating a romantic and contemporary atmosphere. The image should have a light, airy feel with muted tones&width=800&height=800&orientation=squarish&flag=8a29cf6c-232a-47cb-90ac-b82ea3bdf763" alt="Couple" class="w-full h-full object-cover">                </div>
+                <div class="md:w-1/2 p-8">
+                    <div class="text-center mb-8">
+                        <h1 class="text-4xl font-bold text-custom mb-2">Ready to match up?</h1>
+                        <p class="text-lg text-gray-600">Create your Profile</p>
+                    </div>                    
+                    <form class="space-y-6">
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>                                <input type="text" placeholder="First name" class="w-full border border-gray-200 rounded-lg p-3 focus:ring-custom focus:border-custom" required>                            </div>
+                            <div>
+                                <input type="text" placeholder="Last name" class="w-full border border-gray-200 rounded-lg p-3 focus:ring-custom focus:border-custom" required>                            </div>
+                        </div>
+                        
+                        <div class="grid grid-cols-2 gap-4">                            <div>
+                                <input type="number" placeholder="Age" class="w-full border border-gray-200 rounded-lg p-3 focus:ring-custom focus:border-custom [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none" required>                            </div>
+                            <div>
+                                <input type="text" placeholder="Coventry ID" class="w-full border border-gray-200 rounded-lg p-3 focus:ring-custom focus:border-custom" required>                            </div>
+                        </div>
+                        
+                        <div class="grid grid-cols-2 gap-4">                            <div>
+                                <input type="password" placeholder="Set Password" class="w-full border border-gray-200 rounded-lg p-3 focus:ring-custom focus:border-custom" required>                            </div>
+                            <div>
+                                <input type="password" placeholder="Confirm Password" class="w-full border border-gray-200 rounded-lg p-3 focus:ring-custom focus:border-custom" required>                            </div>
+                        </div>
+                        
+                        <div class="grid grid-cols-2 gap-4">                            <div>
+                                <button type="button" class="w-full border border-gray-200 rounded-lg p-3 text-gray-600 hover:border-custom focus:ring-custom focus:border-custom !rounded-button">                                    <i class="fas fa-camera mr-2"></i>Select a Photo
+                                </button>
+                            </div>                            <div>
+                                <select class="w-full border border-gray-200 rounded-lg p-3 text-gray-600 focus:ring-custom focus:border-custom appearance-none bg-white">                                    <option value="" disabled selected>Choose your match</option>
+                                    <option value="men">Men</option>
+                                    <option value="women">Women</option>
+                                    <option value="both">Both</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div>                            <textarea placeholder="Bio" rows="4" class="w-full border border-gray-200 rounded-lg p-3 focus:ring-custom focus:border-custom resize-none"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full bg-custom text-white rounded-lg p-4 hover:bg-custom/90 transition-colors !rounded-button">                            Sign Up
+                        </button>
+                        
+                        <button id="backbutton" type="button" class="w-full bg-custom/10 text-custom rounded-lg p-4 hover:bg-custom/20 transition-colors !rounded-button">                            Back
+                        </button>
+                    </form>
+                </div>
+            </div>        </div>
+    </div>
+</body>
+<script src="landingpage.js"></script>
+</html>

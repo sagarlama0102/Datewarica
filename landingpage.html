@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datewarica - Find Your Perfect Match</title>
+
+    <!-- Fonts/Styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://ai-public.creatie.ai/gen_page/tailwind-custom.css" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com/3.4.5?plugins=forms@0.5.7,typography@0.5.13,aspect-ratio@0.4.2,container-queries@0.1.1"></script>
+    <script src="https://ai-public.creatie.ai/gen_page/tailwind-config.min.js" data-color="#000000" data-border-radius="small"></script>
+</head>
+<body class="font-['Inter']">
+
+    <!-- Nav Bar -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-pink/100 backdrop-blur-sm border-b border-gray-100">
+        <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <!-- Logo -->
+                <a href="/" class="flex items-center">
+                    <img src="group logo.png" alt="Datewarica" class="h-8 w-auto">
+                    <span class="ml-2 text-xl font-semibold text-custom">Datewarica</span>
+                </a>
+
+                <!-- Nav Links -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#" class="text-bold-gray-600 hover:text-custom">Home</a>
+                    <a href="#" class="text-bold-gray-600 hover:text-custom">About Us</a>
+                    <a href="#" class="text-bold-gray-600 hover:text-custom">Contact Us</a>
+                    <a href="#" class="text-bold-gray-600 hover:text-custom">Services</a>
+                    <button id="Signupbutton" class="rounded-button bg-custom text-white px-6 py-2 font-medium hover:bg-opacity-90 transition-colors">
+                        Sign Up
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="pt-16">
+        <!-- Hero Section -->
+        <section class="relative h-[calc(100vh-4rem)] flex items-center">
+            <!-- Bg Image -->
+            <div class="absolute inset-0">
+                <img src="C:/Users/DELL/OneDrive/Desktop/Groupproject sem3/AndriodAppDev/couplesimagesmall.jpg" alt="Couples image" class="w-full h-full object-cover object-top">
+                <div class="absolute inset-0 bg-gradient-to-r from-white/60 to-white/30"></div>
+            </div>
+
+            <!-- Hero Content -->
+            <div class="relative max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-2xl">
+                    <h1 class="text-5xl font-bold text-gray-900 mb-6">Discover people nearby and meet your #Softlink</h1>
+                    <p class="text-xl text-gray-700 mb-8">Join the dating app that is ensuring every connection is a genuine one. Datewarica is all about making honest connections online and in real life.</p>
+                    <button id="loginButton" class="rounded-button bg-custom text-white px-8 py-3 text-lg font-medium hover:bg-opacity-90 transition-colors flex items-center">
+                        <i class="fas fa-heart mr-2"></i> Login
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- Why Choose Datewarica? -->
+        <section class="py-20 bg-pink-50">
+            <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4">Why Choose Datewarica?</h2>
+                    <p class="text-lg text-gray-600">Experience dating that&#39;s focused on what matters most - real connections</p>
+                </div>
+                
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-lg shadow-sm">
+                        <div class="text-custom mb-4">
+                            <i class="fas fa-user-shield text-3xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Verified Profiles</h3>
+                        <p class="text-gray-600">Every profile is verified to ensure you&#39;re meeting real people with genuine intentions</p>
+                    </div>
+                    
+                    <div class="bg-white p-8 rounded-lg shadow-sm">
+                        <div class="text-custom mb-4">
+                            <i class="fas fa-map-marker-alt text-3xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Local Matches</h3>
+                        <p class="text-gray-600">Find meaningful connections with people in your area who share your interests</p>
+                    </div>
+                    
+                    <div class="bg-white p-8 rounded-lg shadow-sm">
+                        <div class="text-custom mb-4">
+                            <i class="fas fa-lock text-3xl"></i>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Safe &amp; Secure</h3>
+                        <p class="text-gray-600">Your privacy and security are our top priority with advanced protection measures</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <!-- Footer Content Here -->
+         <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">About Datewarica</h4>
+                    <p class="text-gray-400">Creating meaningful connections through authentic interactions and shared experiences.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Services</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Support</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Help Center</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Safety Tips</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Connect With Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>© 2024 Datewarica. All rights reserved.</p>
+            </div>
+        </div>
+
+    </footer>
+    <script src="landingpage.js">
+        // Redirect to the login page when the login button is clicked
+        // document.getElementById('loginButton').addEventListener('click', function () {
+        //     window.location.href = 'login.html';
+        // });
+    </script>
+</body>
+</html>
