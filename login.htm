@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datewarica - Login</title>
+
+    <!-- Fonts and Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <link href="https://ai-public.creatie.ai/gen_page/tailwind-custom.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com/3.4.5?plugins=forms@0.5.7,typography@0.5.13,aspect-ratio@0.4.2,container-queries@0.1.1"></script>
+    <script src="https://ai-public.creatie.ai/gen_page/tailwind-config.min.js" data-color="#000000" data-border-radius="small"></script>
+</head>
+<body class="bg-gray-50 min-h-screen flex items-center justify-center">
+
+    <!-- Main Container -->
+    <div class="container max-w-6xl mx-auto px-4">
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+
+            <!-- Split Layout -->
+            <div class="flex flex-col md:flex-row">
+
+                <!-- Left Section: Image -->
+                <div class="w-full md:w-1/2">
+                    <img 
+                        src="https://creatie.ai/ai/api/search-image?query=A joyful scene at a pristine beach with crystal clear turquoise waters and white sand, capturing a moment of pure happiness and connection. The composition shows people in white summer attire enjoying themselves against the backdrop of a perfect blue sky with wispy clouds.&width=800&height=800&orientation=squarish&flag=389fffa2-179d-4ff5-96ef-844f597a3b0f" 
+                        alt="Beach Scene" 
+                        class="w-full h-full object-cover">
+                </div>
+
+                <!-- Right Section: Login Form -->
+                <div class="w-full md:w-1/2 p-8 md:p-12">
+                    <div class="max-w-md mx-auto">
+
+                        <!-- Welcome Header -->
+                        <h1 class="text-4xl font-bold text-custom text-center mb-8 drop-shadow-sm">
+                            Welcome to Datewarica
+                        </h1>
+
+                        <!-- Login Form -->
+                        <form class="space-y-6">
+
+                            <!-- Username Input -->
+                            <div>
+                                <label for="username" class="block text-sm font-medium text-gray-700 mb-1">Username</label>
+                                <div class="relative">
+                                    <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                    <input 
+                                        type="text" 
+                                        id="username" 
+                                        class="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-custom focus:border-custom" 
+                                        placeholder="Enter your username">
+                                </div>
+                            </div>
+
+                            <!-- Password Input -->
+                            <div>
+                                <label for="password" class="block text-sm font-medium text-gray-700 mb-1">Password</label>
+                                <div class="relative">
+                                    <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400">
+                                        <i class="fas fa-lock"></i>
+                                    </span>
+                                    <input 
+                                        type="password" 
+                                        id="password" 
+                                        class="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-custom focus:border-custom" 
+                                        placeholder="Enter your password">
+                                </div>
+                            </div>
+
+                            <!-- Remember Me and Forgot Password -->
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center">
+                                    <input 
+                                        type="checkbox" 
+                                        id="remember-me" 
+                                        class="h-4 w-4 text-custom focus:ring-custom border-gray-300 rounded">
+                                    <label for="remember-me" class="ml-2 block text-sm text-gray-700">
+                                        Remember me
+                                    </label>
+                                </div>
+                                <a href="#" class="text-sm text-custom hover:text-custom/80">Forgot password?</a>
+                            </div>
+
+                            <!-- Buttons -->
+                            <div class="space-y-3">
+                                <button 
+                                    type="submit" 
+                                    class="!rounded-button w-full bg-custom text-white py-3 px-4 hover:bg-custom/90 transition-colors duration-200">
+                                    Login
+                                </button>
+                                <button 
+                                    type="button" 
+                                    class="!rounded-button w-full bg-gray-100 text-gray-700 py-3 px-4 hover:bg-gray-200 transition-colors duration-200">
+                                    Back
+                                </button>
+                            </div>
+                        </form>
+
+                        <!-- Sign-Up Link -->
+                        <p class="mt-6 text-center text-sm text-gray-600">
+                            Don't have an account? 
+                            <a href="#" class="text-custom hover:text-custom/80 font-medium">Sign up</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
